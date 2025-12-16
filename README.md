@@ -1,31 +1,36 @@
-🎬 Movie Recommendation System using Streamlit
-📌 Project Overview
+🎬 Movie Recommendation System (Streamlit)
 
-This project is a Movie Recommendation System built using Python and Streamlit. It recommends movies based on content-based filtering by calculating similarity between movies. The application provides an interactive web-based user interface where users can select a movie and receive personalized recommendations along with movie posters.
+📌 Overview
 
-The system uses precomputed similarity scores and fetches movie posters dynamically using the TMDB (The Movie Database) API.
+A **content-based** movie recommendation system built using **Python** and **Streamlit**.
+Recommends movies based on similarity between movie features.
+Displays movie posters using the TMDB API.
+Simple, interactive, and user-friendly web interface.
 
-Features
+✨ Features
 
-🎥 Movie selection from a dropdown menu
+-> 🎥 Select a movie from a dropdown list
 
-🔍 Content-based movie recommendations
+-> 🔍 Get top 5 similar movie recommendations
 
-🖼️ Dynamic movie poster fetching using TMDB API
+-> 🖼️ Automatically fetches movie posters
 
-🎠 Image carousel for popular movies
+-> 🎠 Image carousel for popular movies
 
-🌐 Interactive web UI built with Streamlit
+-> ⚡ Fast recommendations using precomputed similarity matrix
 
-Movie data and similarity scores are loaded using pickle files.
+⚙️ How the System Works
 
-The user selects a movie from a dropdown list.
+1. Loads movie data and similarity matrix using pickle files
 
-The system computes the most similar movies using cosine similarity.
+2. User selects a movie from the dropdown menu
 
-Movie posters are fetched dynamically using the TMDB API.
+3. Calculates similarity scores to find closest movies
 
-Recommended movies are displayed with their posters in a structured layout.
+4. Fetches posters using TMDB API
+
+5. Displays recommended movies with posters in columns
+
 Home Page
 
 <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/a0c2a0b5-5e14-450a-8447-ff1b587cc82e" />
